@@ -85,8 +85,8 @@ The yellow points represent the randomly initialized means of the clusters, the 
 Now, we run the CAVI algorithm for 50 iterations. The approximate posterior distribution that the algorithm learns will not only provide the centroids of each cluster and indicate the cluster assignments for each data point, but also provide a generative model that can be used to sample new data points from the learned distribution for each cluster.
 
 <div align="center">
-  <img src="outputs/end.png" alt="Final location of cluster means" width="21%">
-  <img src="outputs/elbo.png" alt="ELBO Monitoring" width="25%">
+  <img src="outputs/end.png" alt="Final location of cluster means" width="38%">
+  <img src="outputs/elbo.png" alt="ELBO Monitoring" width="45%">
 </div>
 
 The results demonstrate that the CAVI algorithm successfully converges, with the learned variational parameters closely matching the expected values:
